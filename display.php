@@ -12,11 +12,11 @@ include 'connect.php';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    
 <div class="container">
 <button class="btn btn-primary my-5"><a href="user.php" class="text-light">Add user</a>
-
+<button style="margin-left:10px;" class="btn btn-primary my-5; margin-left:30"><a href="createpdf.php" class="text-light">Make PDF</a>
 </button>
+
 <table class="table">
   <thead>
     <tr>
